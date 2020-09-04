@@ -24,7 +24,7 @@ $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_W
 $date = date("Y/m/d H:i:s");
 
 //2.テーブルを作成
-//"mission5"というテーブルがすでに存在していなければ(テーブル名を変更)
+//"mission5"というテーブルがすでに存在していなければテーブルを作成
 $sql = "CREATE TABLE IF NOT EXISTS mission5"
 ." ("  //登録する項目を指定
 . "id INT AUTO_INCREMENT PRIMARY KEY,"  // １ずつ増加する整数を自動的に指定
