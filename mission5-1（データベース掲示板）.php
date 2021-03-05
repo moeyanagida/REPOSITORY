@@ -14,7 +14,7 @@
   echo "<hr>";
   
   //データベースに接続
-$dsn = 'データベース名';
+$dsn = 'mysql:dbname=データベース名;host=localhost;
 $user = 'ユーザ名';
 $password = 'パスワード';
 //new PDO：データベースに接続するための関数
